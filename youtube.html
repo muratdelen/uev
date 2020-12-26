@@ -1,25 +1,31 @@
-﻿<!DOCTYPE html>
+﻿<!--
+Author: WebThemez
+Author URL: http://webthemez.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="UEV">
-    <meta name="author" content="youtube">
-    <title>Youtube</title>
+    <meta name="description" content="free-educational-responsive-web-template-webEdu">
+    <meta name="author" content="webThemez.com">
+    <title>Uzaktan Eğitim Veli Platformu|UEV</title>
     <link rel="favicon" href="assets/images/favicon.png">
     <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <!-- Custom styles for our template -->
     <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <link rel='stylesheet' id='camera-css' href='assets/css/camera.css' type='text/css' media='all'>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>   
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body>
     <!-- Fixed navbar -->
     <div class="navbar navbar-inverse">
@@ -28,24 +34,24 @@
                 <!-- Button for smallest screens -->
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/logo.png" style="width:150px;" alt="Techro HTML5 template">
+                    <img src="assets/images/logo.png" alt="Techro HTML5 template">
                 </a>
             </div>
-                <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav pull-right mainNav">
                     <li><a href="index.html">Ana Sayfa</a></li>
-                    <li><a href="about.html">UE Araçları</a></li>
-                    <li><a href="courses.html">UE Platformları</a></li>
-                    <li><a href="price.html">Kaynaklar</a></li>
-                    <li><a href="videos.html">UE İletİşİm Kanalları</a></li>
+                    <li><a href="#">UE Araçları</a></li>
+                    <li><a href="#">UE Platformları</a></li>
+                    <li><a href="#">Kaynaklar</a></li>
+                    <li><a href="#">UE İletİşİm Kanalları</a></li>
                     <li class="active" class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ders Dışı Etkinlikler <b class="caret"></b></a>
                         <ul class="dropdown-menu">
 
                             <li><a href="#">Sanal Müzeler</a></li>
                             <li><a href="#">E-Kitaplar</a></li>
-                            <li><a href="youtube.html">Çocuklar için YouTube Kanalları</a></li>
-                            <li><a href="cizmeboyama.html">Çizme Boyama Etkinlikleri</a></li>
+                            <li class="active"><a href="youtube.html">Çocuklar için YouTube Kanalları</a></li>
+                            <li><a href="price.html">Çizme Boyama Etkinlikleri</a></li>
                             <li><a href="#">Strateji Oyun Etkinlikleri</a></li>
                             <li><a href="#">Dğer Etkinlikler</a></li>
 
@@ -55,9 +61,11 @@
 
                 </ul>
             </div>
-            <!-- /.navbar -->
-
-            <header id="head" class="secondary">
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+    <!-- /.navbar -->
+<header id="head" class="secondary">
                 <div class="container">
 				<p>
 				Bilgiye daima aç, meraklı, yaratıcı ve yetenekli çocuklar mı yetiştirmek istiyorsunuz? İstek sadece bununla kalsa iyi, birde bunların yanında internet ve yanında teknoloji denilen terimlerden gerçekten faydalansın… İnternet, sonu olmayan içeriklere ve etkilere sahip sınırsız bir dünya. Çok fazla insan var. Ve bir o kadar da yetenek! Beraberinde gelen birçok güzel yer, teori ve fikir var. Tüm bu bilgiler, kelimenin tam anlamıyla parmaklarımızın ucunda. 
@@ -70,43 +78,109 @@
 				
                 </div>
             </header>
+			<script>		
+			$(function(){
+				$('#asama1').change(function() {
+					$("#aciklama2").toggle();
+				});	
+				$('#asama2').change(function() {
+					$("#aciklama3").toggle();
+				});	
+				$('#asama3').change(function() {
+					$("#aciklama4").toggle();
+				});	
+				$('#asama4').change(function() {
+					$("#aciklama5").toggle();
+				});	
+				$('#asama5').change(function() {
+					$("#aciklama6").toggle();
+				});	
+				$('#asama6').change(function() {
+					$("#aciklama7").toggle();
+				});	
+				$('#asama7').change(function() {
+					$("#aciklama8").toggle();
+				});	
+				$('#asama8').change(function() {
+					$("#aciklama9").toggle();
+				});				
+			});
 
-
-            <!-- container -->
+			</script>
+     <!-- container -->
             <div class="container">
                 <div class="row">
                     <!-- Article content -->
                     <section class="col-sm-12 maincontent">
-                        <h3>Hadi Başlayalım</h3>
-						<ol>
-							<li>
-								<h3>Sağ üst köşedeki oturum aç kısmına tıklayınız.</h3>
+                        <h3 style="text-align:center;">Yotube Çocuk Modu Açma Aşamaları:</h3>
+						<ol>						
+						<li id="aciklama1">
+								<p><a href="https://www.youtube.com/" target="_blank">Burayı tıklayarak youtube.com uygulmasını açınız.</a></p>
+								<hr>
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" id="asama1" data-toggle="toggle">
+									<label class="form-check-label btn btn-block btn-success" for="asama1" >Bunu başarıyla yaptım.</label>
+								</div>
+								<hr>
+							</li>
+							<li id="aciklama2" style="display:none;">
+								<p>Sağ üst köşedeki oturum aç kısmına tıklayınız.</p>
 								<img src="assets/images/youtube_1.png" class="img-rounded" />
 								<hr>
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" id="asama2" data-toggle="toggle">
+									<label class="form-check-label btn btn-block btn-success" for="asama2">Bunu başarıyla yaptım.</label>
+								</div>
+								<hr>
 							</li>
-							<li>
-								<h3>google hesabınızla giriş yapınız.</h3>
+							<li id="aciklama3" style="display:none;">
+								<p>google hesabınızla giriş yapınız.</p>
 								<img src="assets/images/youtube_2.png" class="img-rounded" />
 								<hr>
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" id="asama3" data-toggle="toggle">
+									<label class="form-check-label btn btn-block btn-success" for="asama3">Bunu başarıyla yaptım.</label>
+								</div>
+								<hr>
 							</li>
-							<li>
-								<h3>Sağ üst köşedeki hesanınızı tıklayarak ayarlar kısmını açınız.</h3>
+							<li id="aciklama4" style="display:none;">
+								<p>Sağ üst köşedeki hesanınızı tıklayarak ayarlar kısmını açınız.</p>
 								<img src="assets/images/youtube_3.png" class="img-rounded"/>
 								<hr>
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" id="asama4" data-toggle="toggle">
+									<label class="form-check-label btn btn-block btn-success" for="asama4">Bunu başarıyla yaptım.</label>
+								</div>
+								<hr>
 							</li>
-							<li>
-								<h3>Açılan panelin en altında bulunan kısıtlı mod kısmı tıklanır.</h3>
+							<li id="aciklama5" style="display:none;">
+								<p>Açılan panelin en altında bulunan kısıtlı mod kısmı tıklanır.</p>
 								<img src="assets/images/youtube_4.png" class="img-rounded" />
 								<hr>
-							</li>
-							<li>
-								<h3>açılan panelden kısıtlı mod tıklanarak aktif hale getirilir.</h3>
-								<img src="assets/images/youtube_5.png" class="img-rounded" />
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" id="asama5" data-toggle="toggle">
+									<label class="form-check-label btn btn-block btn-success" for="asama5">Bunu başarıyla yaptım.</label>
+								</div>
 								<hr>
 							</li>
-							<li>
-								<h3>Kısıtlı mod aktif hale gelmiş olur bu şekilde çocuklar için daha güvenilir videolar açılır yetişkin videoları kısıtlanır.</h3>
+							<li id="aciklama6" style="display:none;">
+								<p>açılan panelden kısıtlı mod tıklanarak aktif hale getirilir.</p>
+								<img src="assets/images/youtube_5.png" class="img-rounded" />
+								<hr>
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" id="asama6" data-toggle="toggle">
+									<label class="form-check-label btn btn-block btn-success" for="asama6">Bunu başarıyla yaptım.</label>
+								</div>
+								<hr>
+							</li>
+							<li id="aciklama7" style="display:none;">
+								<p>Kısıtlı mod aktif hale gelmiş olur bu şekilde çocuklar için daha güvenilir videolar açılır yetişkin videoları kısıtlanır.</p>
 								<img src="assets/images/youtube_6.png" class="img-rounded" />
+								<hr>
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" id="asama7" data-toggle="toggle">
+									<label class="form-check-label btn btn-block btn-success" for="asama7">Bunu başarıyla yaptım.</label>
+								</div>
 								<hr>
 							</li>
 						</ol>
@@ -117,61 +191,8 @@
             </div>
             <!-- /container -->
 
- <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="grey-box-icon">
-                    <div class="icon-box-top grey-box-icon-pos">
-                        <img src="assets/images/1.png" alt="" />
-                    </div><!--icon box top -->
-                    <h4>Zeka Geliştirici Oyunlar ve Etkinlikler</h4>
-                    <p>
-                        Açıklama
-                    </p>
-                    <p><a href="#"><em>Detay</em></a></p>
-                </div><!--grey box -->
-            </div><!--/span3-->
-            <div class="col-md-3">
-                <div class="grey-box-icon">
-                    <div class="icon-box-top grey-box-icon-pos">
-                        <img src="assets/images/2.png" alt="" />
-                    </div><!--icon box top -->
-                    <h4>YouTube Kanalları ve Sanal Müzeler</h4>
-                    <p>
-                        Açıklama
-                    </p>
-                    <p><a href="#"><em>Detay</em></a></p>
-                </div><!--grey box -->
-            </div><!--/span3-->
-            <div class="col-md-3">
-                <div class="grey-box-icon">
-                    <div class="icon-box-top grey-box-icon-pos">
-                        <img src="assets/images/3.png" alt="" />
-                    </div><!--icon box top -->
-                    <h4>
-                        E-Kitaplar
-                    </h4>
-                    <p>
-                        Açıklama
-                    </p>
-                    <p><a href="#"><em>Detay</em></a></p>
-                </div><!--grey box -->
-            </div><!--/span3-->
-            <div class="col-md-3">
-                <div class="grey-box-icon">
-                    <div class="icon-box-top grey-box-icon-pos">
-                        <img src="assets/images/4.png" alt="" />
-                    </div><!--icon box top -->
-                    <h4>Çizme-Boyama Etkinlikleri</h4>
-                    <p>
-                        Açıklama
-                    </p>
-                    <p><a href="#"><em>Detay →</em></a></p>
-                </div><!--grey box -->
-            </div><!--/span3-->
-        </div>
-    </div>
-    <section class="news-box top-margin">
+  
+   <section class="news-box top-margin">
         <div class="container">
             <h2><span>Çoçuklar için youtube kanalları:</span></h2>
 			<p>
@@ -347,62 +368,124 @@
             </div>
         </div>
     </section>
-            <section class="container">
-                <div class="heading">
-                    <!-- Heading -->
-					<p>
-					Z kuşağı ile baş başa kalan biz X ve Y kuşakları. Çocuklarımızı teknolojiden uzak tutamayız ama iyi teknolojileri seçme yeteneği kazandırabiliriz.  Bunu onlara izlettiğimiz ve dinlettiğimiz şeylerle yapabilmek mümkün. Hem dinleme hem de izleme olanaklarını içinde barındıran ve her ne kadar bir teknoloji olmasa da çocuklarımız için vaz geçilmez bir kaynak YouTube. Bu kaynakta meraklı ve şanslı z kuşağımız için faydalı kanallar da var. İşte bunlardan birkaçı.
-					</p>
-                    <h3>Çoçuklar için youtube kanalları:</h3>
-                   <ul>
-						<li><a target="_blank" href="https://youtu.be/mB7g_CA3DH0">Lezzetli Robot Tarifleri:</a>
-						<p>İsminden de anlaşılacağı üzere bu kanal çocuklara robot yapmayı öğretiyor. Kanalın genel teması elektronik, kodlama ve robotik üzerine. Çocuğa basit malzemeler ile nasıl robot yapılacağını gösteren bu kanal çocuğun yaratıcılığını geliştiriyor. Ayrıca çocuklar okulda öğrendiği fizik bilgisini uygulamaya koyarak daha iyi öğreniyor. Çocuk bu yolla hobi kazanabilir ve bilim üzerine çalışmak isteyebilir. Bu kanal daha çok 13 yaş ve üzeri çocuklar için uygun. </p>
-						</li>
-						<li><a target="_blank" href="https://youtu.be/VJU4nVy1gCI">Homur ve Gomur: </a>
-						<p>Bu kanal Türk yapımı sevimli oyuncakların öykülerini anlatıyor. Kanalın içerikleri 4 yaş ve üzeri için uygun. Hikayelerden çocuklar işbirliği ve yardımseverlik gibi önemli kavramları öğrenebilir.  </p>
-						</li>
-						<li><a target="_blank" href="https://youtu.be/dqxsO-A94Bk">Robotistan:</a>
-						<p>Robotistan kodlama ve robotik ile ilgili içerikler hazırlayan bir kanal. Bu kanal 2 yaş ve üzeri olan çocuklar için uygun. Kanalın içerikleri eğitici ve çocuklar bilimi sevdirebilir. Ayrıca çocuklara yaratıcılık kazandırır ve bir hobi edinebilirler. Sadece çocuklar değil ebeveynlerde bu kanaldan verim alabilirler. </p>
-						</li>
-						<li><a target="_blank" href="https://youtu.be/kGI5zWjuQCw">Ruhun Doysun: </a>
-						<p>İsrafın fazla olduğu günümüzde bu kanal yemek israfını ve fazla tüketimin azaltılmasına yöneliktir. Bu konu ile ilgili şimdiden bilinçlendirilen çocuklar büyüdükleri zaman gereksiz ve fazla tüketimden uzak durabilirler. 13 yaş ve üzeri için uygun olan bu kanal başka kültürleri öğrenme, genel kültür ve çevrecilik gibi önemli kavramları çocuklara kazandırabilir. </p>
-						</li>
-						<li><a target="_blank" href="https://youtu.be/PfDlWzzD2VI">Afacan TV:</a>
-						<p>Çocuklar için öğretici müzik videoları üreten bir kanal. 3 yaş ve üzeri için uygun olan kanal çocukları dil öğrenimine katkıda bulunuyor. Özellikle okul öncesi çocukların dil öğrenimine katkıda bulunabilir.  </p>
-						</li>
-						<li><a target="_blank" href="https://www.youtube.com/channel/UCXVCgDuD_QCkI7gTKU7-tpg/playlists">NatGeo Kids</a>
-						<p>Profesyonellikten ödün vermeyen ve oldukça çeşitli içeriklere sahip olan NatGeo Kids, hayat bilgisinden biyolojiye; kimyadan fiziğe ve mühendisliğe kadar birçok konuda eğitici ve ilgi çekici videolar sunuyor. Tüm yaş grupları için uygun.  </p>
-						</li>
-						<li><a target="_blank" href="https://www.youtube.com/user/patrickJMT">patrickJMT:</a>
-						<p> YouTube'da on yıldır matematik videoları üretiyor. Zor kavramların kolayca anlaşılabilecek şekilde anlatıldığı videolar için bu kanal doğru adres. Tüm yaş grupları için uygun.  </p>
-						</li>
-						<li><a target="_blank" href="https://www.youtube.com/channel/UCRGXV1QlxZ8aucmE45tRx8w">Nancy Pi:</a>
-						<p>Matematik uzmanı Nancy Pi, kız çocuklarımız için müthiş bir rol model. Kendisi MIT mezunu ve zor kavramları açıklıyor. Ortaokula giden ve daha büyük çocuklar için uygun. </p>
-						</li>
-						<li><a target="_blank" href="https://www.youtube.com/user/khanacademy/playlists?view=50&shelf_id=6&sort=dd">Khan Academy:</a>
-						<p>Her zaman desteğine başvurabileceğiniz bir kanal Khan Academy. Ücretsiz, kapsamlı ve eğitim dünyasına hediye niteliği taşıyan içeriklere sahip bir kanal. Tüm yaş grupları için uygun. </p>
-						</li>
-						<li><a target="_blank" href="https://www.youtube.com/user/ArtforKidsHub">Art for Kids Hub:</a>
-						<p>Sanatla uğraşmayı seven çocuklara yönelik içerikler hazırlayan bir aile kanalı. Temel çizim derslerinden daha zor konulara kadar çeşitli videolar paylaşan kanal, küçük sanatçılar için harika. İlkokul öğrencileri için uygun. </p>
-						</li>
-						<li><a target="_blank" href="https://www.youtube.com/channel/UCT3uZZ2sfCm2gBWzBx1O1sw/featured">The ArtChik:</a>
-						<p>Sanatçı Andrea Kirk, tüm seviyelere ve yaşlara hitap eden resim dersleri veriyor.  </p>
-						</li>
-				   </ul>
-                </div>
-                <div class="row flat">
-                    <div class="col-lg-3 col-md-3 col-xs-6">
-                        <p>Video ve Resimler eklenecek</p>
-                        <p>Etkileşim alanı</p>
+     
+
+    <footer id="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="footerbottom">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerwidget">
+                            <h4>
+                                Ders Dışı Etkinlikler
+                            </h4>
+                            <div class="menu-course">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="#">
+                                            Sanal Müze
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            E-Kitaplar
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Çocuklar için YouTube Kanalları
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Çizme Boyama Etkinlikleri
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                           Strateji Oyun Etkinlikleri
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Diğer Etkinlikler
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerwidget">
+                            <h4>
+                                Uzaktan Eğitim Araçları
+                            </h4>
+                            <div class="menu-course">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="#">
+                                           En çok kullanılan araçlar
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Yararlı Videolar
+                                        </a>
+                                    </li>
+                                   
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerwidget">
+                            <h4>
+                                Kaynaklar
+                            </h4>
+                            <div class="menu-course">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="#">
+                                           Dersler için yararlı kaynaklar
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                          Ders dışı yararlı kaynaklar
+                                        </a>
+                                    </li>
+                                    
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerwidget">
+                            <h4>Bizimle İletişime Geçin</h4>
+                            <p>Hacettepe Üniversitesi</p>
+                            <div class="contact-info">
+                                <i class="fa fa-map-marker"></i> Ankara Türkiye<br>
+                                <i class="fa fa-phone"></i>+00 123 156 711 <br>
+                                <i class="fa fa-envelope-o"></i> uevplatformu@gmail.com
+                            </div>
+                        </div><!-- end widget -->
+                    </div>
                 </div>
+            </div>
+            <div class="social text-center">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-flickr"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
 
-
-
-            </section>
-           <footer id="footer">      
-          
+            <div class="clear"></div>
+            <!--CLEAR FLOATS-->
+        </div>
         <div class="footer2">
             <div class="container">
                 <div class="row">
@@ -410,12 +493,13 @@
                     <div class="col-md-6 panel">
                         <div class="panel-body">
                             <p class="simplenav">
-                                <a href="index.html">Home</a> |
-                                <a href="about.html">About</a> |
-                                <a href="courses.html">Courses</a> |
-                                <a href="price.html">Price</a> |
-                                <a href="videos.html">Videos</a> |
-                                <a href="contact.html">Contact</a>
+                                <a href="index.html">Ana Sayfa</a> |
+                                <a href="#">Uzaktan Eğitim Araçları</a> |
+                                <a href="#">Uzaktan Eğitim Platformları</a> |
+                                <a href="#">Kaynaklar</a> |
+                                <a href="#">Uzaktan Eğitim İletişim Kanalları</a> |
+                                <a href="price.html">Ders Dışı Etkinlikler</a>
+                                <a href="#">İletişim</a>
                             </p>
                         </div>
                     </div>
@@ -423,7 +507,7 @@
                     <div class="col-md-6 panel">
                         <div class="panel-body">
                             <p class="text-right">
-                                Copyright &copy; 2021. by <a href="https://muratdelen.github.io/uev/" rel="develop">BTE2019</a>
+                                Copyright &copy; 2020.
                             </p>
                         </div>
                     </div>
@@ -434,9 +518,36 @@
         </div>
     </footer>
 
-            <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-            <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-            <script src="assets/js/custom.js"></script>
+    <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+    <script src="assets/js/modernizr-latest.js"></script>
+    <script type='text/javascript' src='assets/js/jquery.min.js'></script>
+    <script type='text/javascript' src='assets/js/fancybox/jquery.fancybox.pack.js'></script>
+
+    <script type='text/javascript' src='assets/js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='assets/js/jquery.easing.1.3.js'></script>
+    <script type='text/javascript' src='assets/js/camera.min.js'></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        jQuery(function () {
+
+            jQuery('#camera_wrap_4').camera({
+                transPeriod: 500,
+                time: 3000,
+                height: '600',
+                loader: 'false',
+                pagination: true,
+                thumbnails: false,
+                hover: false,
+                playPause: false,
+                navigation: false,
+                opacityOnGrid: false,
+                imagePath: 'assets/images/'
+            });
+
+        });
+
+    </script>
+
 </body>
 </html>
